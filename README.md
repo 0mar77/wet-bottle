@@ -14,7 +14,7 @@
 - User will be able to view all top scores at the end or if he clicks on "View High Scores"
 - User has the ability to delete all high scores when he clicks on "Clear High Scores"
 
-Link to deployed website[]
+Link to deployed website[https://0mar77.github.io/wet-bottle/]
 
 ![Starting View](images/startingView.png)
 
