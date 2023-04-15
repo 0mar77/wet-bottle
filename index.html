@@ -5,20 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>JavaScript Quiz</title>
 </head>
 <body>
-    
-    <div class="main">
-        <h1>Coding Quiz Challenge</h1>
-        <p>Answer the following questions</p>
-        <button type="button">Start Quiz</button>
-        <div></div>
+    <!-- Main div was used to append all of the other divs -->
+    <div id="main">
+
+        <!-- This was used for the home page -->
+        <div id="starting-view">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Answer the following questions to show how much you know! 🚀<br> 
+            Note: Picking the wrong answer will decrease the time by 10 seconds 🙁</p>
+            <button type="button" id="startButton">Start Quiz</button>
+        </div>
+
+        <!-- Once the quiz is started, the questions and answers would append to this div -->
+        <div id="card-container"></div>
+
+        <!-- This div was used at the end of the quiz. You get your score, and are asked to enter your initials -->
+        <div id="your-score-page"></div>
+
+        <!-- This div was used to display whether or not you got the correct answer -->
+        <div id="answer-result"></div>
+
+        <!-- This div was used to display high scores -->
+        <div id="high-score-page"></div>
+
     </div>
     
-    <div class="left">View High Scores</div>
+    <!-- This was used to display high scores -->
+    <div id="left">View High Scores</div>
     
-    <div class="right">Time:</div>
+    <!-- This div would show the time on the top right -->
+    <div id="right">Time: <div id="time-div">0</div></div>
 
     <script src="script.js"></script>
 </body>
