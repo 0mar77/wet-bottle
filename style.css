@@ -4,25 +4,136 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.main {
+#main {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-
-
-.left {
+#left {
     position: absolute;
     top: 5%;
     left: 5%;
     font-size: xx-large;
+    color:royalblue;
 }
 
-.right {
+#left:hover {
+    color: blueviolet;
+}
+
+#right {
     position: absolute;
     top: 5%;
     right: 5%;
     font-size: xx-large;
 }
+
+#time-div {
+    display: inline;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#startButton {
+    background-color: royalblue;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#startButton:hover {
+    background-color: blueviolet;
+}
+
+.question {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.answers {
+    margin: 25px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: royalblue;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+.answers:hover {
+    background-color: blueviolet;
+}
+
+form {
+    margin-top: 5px;
+    font-size: xx-large;
+}
+
+span {
+    margin-right: 2px;
+}
+
+input {
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: xx-large;
+}
+
+#submit {
+    color:white;
+    background-color: royalblue;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: xx-large;
+}
+
+#submit:hover {
+    background-color: blueviolet;
+}
+
+#answer-result {
+    font-size: 30px;
+}
+
+#high-scores {
+    padding-left: 10px;
+    background-color: lightblue;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.high-score-buttons {
+    background-color: royalblue;
+    color: white;
+    border-radius:10px;
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.high-score-buttons:hover {
+    background-color: blueviolet;
+}
+
+
